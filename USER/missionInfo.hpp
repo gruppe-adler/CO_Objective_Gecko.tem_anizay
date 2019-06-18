@@ -2,7 +2,7 @@
 *   Legt allgemeine Information über die Mission fest.
 */
 
-author = "Eras für Gruppe Adler";                                               // Missionsersteller
+author = "XDrake & Eras für Gruppe Adler";                                               // Missionsersteller
 onLoadName = "Operation Desert Extract";                                                   // Name der Mission
 onLoadMission = "Move, shoot, communicate.";                                                             // Beschreibung der Mission (wird im Ladebildschirm unterhalb des Ladebildes angezeigt)
 loadScreen = "data\loadpic.paa";                                                // Ladebild
