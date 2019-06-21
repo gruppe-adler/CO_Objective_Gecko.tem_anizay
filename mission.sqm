@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=266;
+		nextID=274;
 	};
 	class Camera
 	{
-		pos[]={8375.4199,120.48811,6874.5674};
-		dir[]={-0.79305559,-0.38986149,0.46831998};
-		up[]={-0.33585986,0.92076343,0.19833601};
-		aside[]={0.50854462,-3.3454853e-007,0.86116755};
+		pos[]={8379.6914,120.48811,6871.856};
+		dir[]={0.098563425,0.98886621,-0.11148567};
+		up[]={-0.65498006,0.14880794,0.74084908};
+		aside[]={-0.74919057,-2.7567148e-007,-0.66235471};
 	};
 };
 binarizationWanted=0;
@@ -10520,7 +10520,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8433.1094,111.51656,6891.4717};
-								angles[]={-0,0,6.2751918};
+								angles[]={0,0,6.2751918};
 							};
 							side="West";
 							flags=6;
@@ -10760,7 +10760,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8431.96,111.52576,6891.4829};
-								angles[]={-0,0,6.2751918};
+								angles[]={0,0,6.2751918};
 							};
 							side="West";
 							flags=4;
@@ -10894,6 +10894,7 @@ class Mission
 							};
 							id=1851;
 							type="B_Helipilot_F";
+							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -11000,7 +11001,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8430.873,111.53445,6891.46};
-								angles[]={-0,0,6.2751918};
+								angles[]={0,0,6.2751918};
 							};
 							side="West";
 							flags=4;
@@ -11134,6 +11135,7 @@ class Mission
 							};
 							id=1852;
 							type="B_Helipilot_F";
+							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16387,7 +16389,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8355.6709,112.18495,6838.7529};
-				angles[]={-0,1.6495228,0};
+				angles[]={0,1.6495228,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16428,7 +16430,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8355.6074,112.18495,6837.8115};
-				angles[]={-0,1.6438533,0};
+				angles[]={0,1.6438533,0};
 			};
 			side="Empty";
 			flags=4;
