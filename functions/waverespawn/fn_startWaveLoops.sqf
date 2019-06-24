@@ -2,104 +2,98 @@
 
 //BLUFOR =======================================================================
 [{
-    if (EGVAR(common,gamePaused)) exitWith {};
-
-    [QGVAR(WAVERESPAWNSTATUSBLU),[WEST] call FUNC(getStatus)] call CBA_fnc_publicVariable;
+    ["WAVERESPAWNSTATUSBLU",[WEST] call grad_waverespawn_fnc_getStatus] call CBA_fnc_publicVariable;
 
     //dont execute while respawning is possible
-    if (GVAR(WAVERESPAWNBLU)) exitWith {};
+    if (WAVERESPAWNBLU) exitWith {};
 
     //start countdown once first player is added to wave
-    if (count GVAR(wavePlayersBlu) > 0) then {
-        GVAR(WAVERESPAWNTIMELEFTBLU) = (GVAR(WAVERESPAWNTIMELEFTBLU) - 1) max 0;
-        publicVariable QGVAR(WAVERESPAWNTIMELEFTBLU);
+    if (count deadPlayersBlu > 0) then {
+        WAVERESPAWNTIMELEFTBLU = (WAVERESPAWNTIMELEFTBLU - 1) max 0;
+        publicVariable "WAVERESPAWNTIMELEFTBLU";
     } else {
-        [QGVAR(WAVERESPAWNTIMELEFTBLU),GVAR(WAVERESPAWNTIMEBLU)] call CBA_fnc_publicVariable;
+        ["WAVERESPAWNTIMELEFTBLU",WAVERESPAWNTIMEBLU] call CBA_fnc_publicVariable;
     };
 
     //enable respawning when wave is full
-    if (["WEST"] call FUNC(canRespawn)) then {
+    if (["WEST"] call grad_waverespawn_fnc_canRespawn) then {
 
-        GVAR(WAVERESPAWNBLU) = true;
-        publicVariable QGVAR(WAVERESPAWNBLU);
+        WAVERESPAWNBLU = true;
+        publicVariable "WAVERESPAWNBLU";
         INFO("Respawning now possible for Blufor.");
 
         [{
-            GVAR(WAVERESPAWNBLU) = false;
-            publicVariable QGVAR(WAVERESPAWNBLU);
-            GVAR(WAVERESPAWNTIMELEFTBLU) = GVAR(WAVERESPAWNTIMEBLU);
-            publicVariable QGVAR(WAVERESPAWNTIMELEFTBLU);
+            WAVERESPAWNBLU = false;
+            publicVariable "WAVERESPAWNBLU";
+            WAVERESPAWNTIMELEFTBLU = WAVERESPAWNTIMEBLU;
+            publicVariable    "WAVERESPAWNTIMELEFTBLU";
             INFO("Respawning no longer possible for Blufor.");
-        },[],(GVAR(RESPAWNWAVEEXTRATIME) max 7)] call CBA_fnc_waitAndExecute;
+        },[],(RESPAWNWAVEEXTRATIME max 7)] call CBA_fnc_waitAndExecute;
     };
 }, 1, []] call CBA_fnc_addPerFrameHandler;
 
 
 //OPFOR ========================================================================
 [{
-    if (EGVAR(common,gamePaused)) exitWith {};
-
-    [QGVAR(WAVERESPAWNSTATUSOPF),[EAST] call FUNC(getStatus)] call CBA_fnc_publicVariable;
+    ["WAVERESPAWNSTATUSOPF",[EAST] call grad_waverespawn_fnc_getStatus] call CBA_fnc_publicVariable;
 
     //dont execute while respawning is possible
-    if (GVAR(WAVERESPAWNOPF)) exitWith {};
+    if (WAVERESPAWNOPF) exitWith {};
 
     //start countdown once first player is added to wave
-    if (count GVAR(wavePlayersOpf) > 0) then {
-        GVAR(WAVERESPAWNTIMELEFTOPF) = (GVAR(WAVERESPAWNTIMELEFTOPF) - 1) max 0;
-        publicVariable QGVAR(WAVERESPAWNTIMELEFTOPF);
+    if (count deadPlayersOpf > 0) then {
+        WAVERESPAWNTIMELEFTOPF = (WAVERESPAWNTIMELEFTOPF - 1) max 0;
+        publicVariable "WAVERESPAWNTIMELEFTOPF";
     } else {
-        [QGVAR(WAVERESPAWNTIMELEFTOPF),GVAR(WAVERESPAWNTIMEOPF)] call CBA_fnc_publicVariable;
+        ["WAVERESPAWNTIMELEFTOPF",WAVERESPAWNTIMEOPF] call CBA_fnc_publicVariable;
     };
 
     //enable respawning when wave is full
-    if (["EAST"] call FUNC(canRespawn)) then {
+    if (["EAST"] call grad_waverespawn_fnc_canRespawn) then {
 
-        GVAR(WAVERESPAWNOPF) = true;
-        publicVariable QGVAR(WAVERESPAWNOPF);
+        WAVERESPAWNOPF = true;
+        publicVariable "WAVERESPAWNOPF";
         INFO("Respawning now possible for Opfor.");
 
         [{
-            GVAR(WAVERESPAWNOPF) = false;
-            publicVariable QGVAR(WAVERESPAWNOPF);
-            GVAR(WAVERESPAWNTIMELEFTOPF) = GVAR(WAVERESPAWNTIMEOPF);
-            publicVariable QGVAR(WAVERESPAWNTIMELEFTOPF);
+            WAVERESPAWNOPF = false;
+            publicVariable "WAVERESPAWNOPF";
+            WAVERESPAWNTIMELEFTOPF = WAVERESPAWNTIMEOPF;
+            publicVariable "WAVERESPAWNTIMELEFTOPF";
             INFO("Respawning no longer possible for Opfor.");
-        },[],(GVAR(RESPAWNWAVEEXTRATIME) max 7)] call CBA_fnc_waitAndExecute;
+        },[],(RESPAWNWAVEEXTRATIME max 7)] call CBA_fnc_waitAndExecute;
     };
 }, 1, []] call CBA_fnc_addPerFrameHandler;
 
 
 //INDEP ========================================================================
 [{
-    if (EGVAR(common,gamePaused)) exitWith {};
-        
-    [QGVAR(WAVERESPAWNSTATUSIND),[INDEPENDENT] call FUNC(getStatus)] call CBA_fnc_publicVariable;
+    ["WAVERESPAWNSTATUSIND",[INDEPENDENT] call grad_waverespawn_fnc_getStatus] call CBA_fnc_publicVariable;
 
     //dont execute while respawning is possible
-    if (GVAR(WAVERESPAWNIND)) exitWith {};
+    if (WAVERESPAWNIND) exitWith {};
 
     //start countdown once first player is added to wave
-    if (count GVAR(wavePlayersInd) > 0) then {
-        GVAR(WAVERESPAWNTIMELEFTIND) = (GVAR(WAVERESPAWNTIMELEFTIND) - 1) max 0;
-        publicVariable QGVAR(WAVERESPAWNTIMELEFTIND);
+    if (count deadPlayersInd > 0) then {
+        WAVERESPAWNTIMELEFTIND = (WAVERESPAWNTIMELEFTIND - 1) max 0;
+        publicVariable "WAVERESPAWNTIMELEFTIND";
     } else {
-        [QGVAR(WAVERESPAWNTIMELEFTIND),GVAR(WAVERESPAWNTIMEIND)] call CBA_fnc_publicVariable;
+        ["WAVERESPAWNTIMELEFTIND",WAVERESPAWNTIMEIND] call CBA_fnc_publicVariable;
     };
 
     //enable respawning when wave is full
-    if (["INDEPENDENT"] call FUNC(canRespawn)) then {
+    if (["INDEPENDENT"] call grad_waverespawn_fnc_canRespawn) then {
 
-        GVAR(WAVERESPAWNIND) = true;
-        publicVariable QGVAR(WAVERESPAWNIND);
+        WAVERESPAWNIND = true;
+        publicVariable "WAVERESPAWNIND";
         INFO("Respawning now possible for Independent.");
 
         [{
-            GVAR(WAVERESPAWNIND) = false;
-            publicVariable QGVAR(WAVERESPAWNIND);
-            GVAR(WAVERESPAWNTIMELEFTIND) = GVAR(WAVERESPAWNTIMEIND);
-            publicVariable QGVAR(WAVERESPAWNTIMELEFTIND);
+            WAVERESPAWNIND = false;
+            publicVariable "WAVERESPAWNIND";
+            WAVERESPAWNTIMELEFTIND = WAVERESPAWNTIMEIND;
+            publicVariable "WAVERESPAWNTIMELEFTIND";
             INFO("Respawning no longer possible for Independent.");
-        },[],(GVAR(RESPAWNWAVEEXTRATIME) max 7)] call CBA_fnc_waitAndExecute;
+        },[],(RESPAWNWAVEEXTRATIME max 7)] call CBA_fnc_waitAndExecute;
     };
 }, 1, []] call CBA_fnc_addPerFrameHandler;

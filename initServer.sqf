@@ -1,1 +1,1 @@
-["Initialize", [true]] call BIS_fnc_dynamicGroups;
+["Initialize"] call BIS_fnc_dynamicGroups;

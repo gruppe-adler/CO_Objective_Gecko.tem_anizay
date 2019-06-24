@@ -12,10 +12,9 @@ if (player getVariable ["wr_interrupted", false]) exitWith {
 
     ["Terminate"] call BIS_fnc_EGSpectator;
     ["Initialize", [player, [WEST,EAST,INDEPENDENT], true]] call BIS_fnc_EGSpectator;
-    [player,playerSide,false] remoteExec [QFUNC(addToWaiting),2,false];
 
     _explanation = parseText format ["<t align='center' size='1.4'>%1</t>", "No respawn available."];
-    [playerSide, _explanation] call FUNC(respawnHint);
+    [playerSide, _explanation] call grad_waverespawn_fnc_respawnHint;
     [{hint ""}, [], 3] call CBA_fnc_waitAndExecute;
 };
 

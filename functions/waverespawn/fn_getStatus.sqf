@@ -6,10 +6,10 @@ _status = "";
 
 if (_side == WEST) then {
     _status = switch (true) do {
-        case (GVAR(WAVERESPAWNTIMELEFTBLU) > 0): {
+        case (WAVERESPAWNTIMELEFTBLU > 0): {
             "Waiting for wave-countdown.";
         };
-        case (count GVAR(wavePlayersBlu) < GVAR(BLUFORWAVESIZE)): {
+        case (count deadPlayersBlu < BLUFORWAVESIZE): {
             "Waiting for more players.";
         };
         default {
@@ -20,10 +20,10 @@ if (_side == WEST) then {
 
 if (_side == EAST) then {
     _status = switch (true) do {
-        case (GVAR(OPFORWAVESIZE) > 0): {
+        case (OPFORWAVESIZE > 0): {
             "Waiting for wave-countdown.";
         };
-        case (count GVAR(wavePlayersOpf) < GVAR(OPFORWAVESIZE)): {
+        case (count deadPlayersOpf < OPFORWAVESIZE): {
             "Waiting for more players.";
         };
         default {
@@ -34,10 +34,10 @@ if (_side == EAST) then {
 
 if (_side == INDEPENDENT) then {
     _status = switch (true) do {
-        case (GVAR(INDEPWAVESIZE) > 0): {
+        case (INDEPWAVESIZE > 0): {
             "Waiting for wave-countdown.";
         };
-        case (count GVAR(wavePlayersInd) < GVAR(INDEPWAVESIZE)): {
+        case (count deadPlayersInd < INDEPWAVESIZE): {
             "Waiting for more players.";
         };
         default {

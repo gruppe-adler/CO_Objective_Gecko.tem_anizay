@@ -1,12 +1,9 @@
 #include "component.hpp"
 
-params ["",["_oldUnit",objNull]];
-
-[_oldUnit,playerSide] remoteExec [QFUNC(removeFromWave),2,false];
-[_oldUnit,playerSide,false] remoteExec [QFUNC(addToWaiting),2,false];
+[profileName,playerSide] remoteExec ["grad_waverespawn_fnc_removeFromWave",2,false];
 
 setPlayerRespawnTime 99999;
 
 hint "";
 
-[] call FUNC(resetPlayerVars);
+[] call grad_waverespawn_fnc_resetPlayerVars;
