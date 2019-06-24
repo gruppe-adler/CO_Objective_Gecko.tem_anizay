@@ -1,5 +1,9 @@
+if (missionNamespace getVariable ["grad_linearSD_linearSDActive",false]) exitWith {
+    [] call grad_linearSD_fnc_onPlayerKilled;
+};
+
 //WAVE RESPAWN
-if (([missionConfigFile >> "missionSettings","waveRespawnEnabled",0] call BIS_fnc_returnConfigEntry) == 1) then {
+if (([missionConfigFile >> "missionsettings","waveRespawnEnabled",0] call BIS_fnc_returnConfigEntry) == 1) then {
     [] call grad_waverespawn_fnc_onPlayerKilled;
 
 
@@ -11,7 +15,7 @@ if (([missionConfigFile >> "missionSettings","waveRespawnEnabled",0] call BIS_fn
         case (INDEPENDENT): {"respawntimeInd"};
         default {"respawntimeBlu"};
     };
-    _respawnTime = [missionConfigFile >> "missionSettings" >> "respawnSettings",_respawnTimeVar,10] call BIS_fnc_returnConfigEntry;
+    _respawnTime = [missionConfigFile >> "missionsettings",_respawnTimeVar,10] call BIS_fnc_returnConfigEntry;
 
     if (_respawnTime > 1800) then {
         ["Terminate"] call BIS_fnc_EGSpectator;

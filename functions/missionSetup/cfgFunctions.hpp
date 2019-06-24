@@ -1,13 +1,14 @@
-class GRAD_missionSetup {
+class grad_missionSetup {
     class missionSetup {
+        class addChatCommands {};
         class createDiaryRecords {};
         class initCivs {};
         class initCivsEquip {preInit = 1;};
         class initMission {postInit = 1;};
-        class initPlayableAI {};
+        class initVars {preInit = 1;};
         class intro {};
         class loadouts {};
-        class setMissionSettings {};
-        class waitForRadioInit {};
+        class preparationTimeCountdown {};
+        class startPreparationTime {};
     };
 };

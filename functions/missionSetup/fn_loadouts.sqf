@@ -4,23 +4,18 @@
 
 #include "component.hpp"
 
-_loadoutFactionBlu = [missionConfigFile,"loadoutFactionBlu",""] call BIS_fnc_returnConfigEntry;
-_loadoutFactionOpf = [missionConfigFile,"loadoutFactionOpf",""] call BIS_fnc_returnConfigEntry;
-_loadoutFactionInd = [missionConfigFile,"loadoutFactionInd",""] call BIS_fnc_returnConfigEntry;
-_loadoutFactionCiv = [missionConfigFile,"loadoutFactionCiv",""] call BIS_fnc_returnConfigEntry;
+grad_missionsettings_loadoutFactionBlu = [missionConfigFile >> "missionsettings","loadoutFactionBlu",""] call BIS_fnc_returnConfigEntry;
+grad_missionsettings_loadoutFactionOpf = [missionConfigFile >> "missionsettings","loadoutFactionOpf",""] call BIS_fnc_returnConfigEntry;
+grad_missionsettings_loadoutFactionInd = [missionConfigFile >> "missionsettings","loadoutFactionInd",""] call BIS_fnc_returnConfigEntry;
 
-if (_loadoutFactionBlu != "") then {
-    ["BLU_F", _loadoutFactionBlu] call GRAD_Loadout_fnc_FactionSetLoadout;
+if (grad_missionsettings_loadoutFactionBlu != "") then {
+    ["BLU_F", grad_missionsettings_loadoutFactionBlu] call GRAD_Loadout_fnc_FactionSetLoadout;
 };
-if (_loadoutFactionOpf != "") then {
-    ["OPF_F", _loadoutFactionOpf] call GRAD_Loadout_fnc_FactionSetLoadout;
+if (grad_missionsettings_loadoutFactionOpf != "") then {
+    ["OPF_F", grad_missionsettings_loadoutFactionOpf] call GRAD_Loadout_fnc_FactionSetLoadout;
 };
-if (_loadoutFactionInd != "") then {
-    ["IND_F", _loadoutFactionInd] call GRAD_Loadout_fnc_FactionSetLoadout;
-};
-
-if (_loadoutFactionCiv != "") then {
-    ["CIV_F", _loadoutFactionCiv] call GRAD_Loadout_fnc_FactionSetLoadout;
+if (grad_missionsettings_loadoutFactionInd != "") then {
+    ["IND_F", grad_missionsettings_loadoutFactionInd] call GRAD_Loadout_fnc_FactionSetLoadout;
 };
 
 GRAD_loadoutFactionSet = true;
