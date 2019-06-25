@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2271;
+		nextID=2274;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=314;
+		nextID=322;
 	};
 	class Camera
 	{
-		pos[]={1539.8026,167.7298,8597.6377};
-		dir[]={-0.025973907,-0.74014241,0.67196101};
-		up[]={-0.028588023,0.6724453,0.7395944};
-		aside[]={0.99926484,3.7081736e-007,0.038624052};
+		pos[]={5300.1792,310.11328,2402.4839};
+		dir[]={0.81742108,-0.27723712,0.50516033};
+		up[]={0.2360093,0.96073252,0.14585318};
+		aside[]={0.52576989,2.6785347e-006,-0.85075742};
 	};
 };
 binarizationWanted=0;
@@ -109,13 +109,15 @@ addons[]=
 	"ace_cargo",
 	"ace_dragging",
 	"A3_Structures_F_Items_Vessels",
-	"A3_Structures_F_Argo_Military_Fortifications"
+	"A3_Structures_F_Argo_Military_Fortifications",
+	"AchillesEffects",
+	"achilles_modules_f_achilles"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=63;
+		items=65;
 		class Item0
 		{
 			className="A3_Modules_F_Heli";
@@ -528,6 +530,18 @@ class AddonsMetaData
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item63
+		{
+			className="AchillesEffects";
+			name="AchillesEffects";
+			author="ArmA 3 Achilles Mod Inc.";
+		};
+		class Item64
+		{
+			className="achilles_modules_f_achilles";
+			name="achilles_modules_f_achilles";
+			author="ArmA 3 Achilles Mod Inc.";
 		};
 	};
 };
@@ -3624,7 +3638,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=199;
+		items=201;
 		class Item0
 		{
 			dataType="Layer";
@@ -18857,16 +18871,40 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5311.186,181.87207,2647.5527};
-				angles[]={0.0079935296,5.6176729,6.2232599};
+				position[]={5311.186,181.87207,2647.553};
+				angles[]={0.0079936078,5.6176734,6.2232509};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=2221;
 			type="FenceWoodPalet";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item188
 		{
@@ -19070,6 +19108,56 @@ class Mission
 			};
 			id=2265;
 			type="Land_Barricade_01_4m_F";
+		};
+		class Item199
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5319.5537,181.37224,2680.4412};
+				angles[]={0.02399601,0,6.2671833};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2272;
+			type="FireLit";
+		};
+		class Item200
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5325.3511,203.57489,2703.3159};
+			};
+			id=2273;
+			type="ModulePersistentSmokePillar_F";
+			atlOffset=17.404007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModulePersistentSmokePillar_F_Type";
+					expression="_this setVariable ['Type',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=5;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
