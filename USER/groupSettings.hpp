@@ -39,7 +39,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 1;
 
-                channel1 = "Raider Internal";
+                channel1 = "SR: Raider";
             };
 
             class longrange {
@@ -56,7 +56,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 2;
 
-                channel2 = "Alpha Internal";
+                channel2 = "SR: Alpha";
             };
 
             class longrange {
@@ -70,7 +70,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 3;
 
-                channel3 = "Alpha One Internal";
+                channel3 = "SR: Alpha One";
             };
 
             class longrange {
@@ -84,7 +84,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 4;
 
-                channel4 = "Alpha Two Internal";
+                channel4 = "SR: Alpha Two";
             };
 
             class longrange {
@@ -98,7 +98,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 5;
 
-                channel5 = "Bravo Internal";
+                channel5 = "SR: Bravo";
             };
 
             class longrange {
@@ -112,7 +112,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 6;
 
-                channel6 = "Bravo One Internal";
+                channel6 = "SR: Bravo One";
             };
 
             class longrange {
@@ -126,7 +126,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 7;
 
-                channel7 = "Bravo Two Internal";
+                channel7 = "SR: Bravo Two";
             };
 
             class longrange {
@@ -140,7 +140,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 8;
 
-                channel8 = "Bandit One Internal";
+                channel8 = "SR: Bandit One";
             };
 
             class longrange {
@@ -154,7 +154,7 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 9;
 
-                channel9 = "Bandit Two Internal";
+                channel9 = "SR: Bandit Two";
             };
 
         };                               
