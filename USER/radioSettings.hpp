@@ -23,7 +23,7 @@
 class shortrange {
     class group1 {
         freq = 50;
-        name = "SR: Raider"
+        name = "SR: Raider";
     };
 
     class group2 {
@@ -47,22 +47,22 @@ class shortrange {
     };
 
     class group6 {
-        freq = 100
+        freq = 100;
         name = "SR: Bravo One";
     };
 
     class group7 {
-        freq = 110
+        freq = 110;
         name = "SR: Bravo Two";
     };
 
     class group8 {
-        freq = 120
+        freq = 120;
         name = "SR: Bandit One";
     };
 
     class group9 {
-        freq = 130
+        freq = 130;
         name = "SR: Bandit Two";
     };
 };
@@ -72,11 +72,38 @@ class shortrange {
 class longrange {
     class group1 {
         freq = 32;
-        name = "LR: Command"
+        name = "LR: Command";
     };
 
     class group2 {
+        freq = 32;
+    };
+
+    class group3 {
+        freq = 32;
+    };
+
+    class group4 {
+        freq = 32;
+    };
+
+    class group5 {
+        freq = 32;
+    };
+
+    class group6 {
+        freq = 32;
+    };
+
+    class group7 {
+        freq = 32;
+    };
+
+    class group8 {
         freq = 33;
-        name = "LR: Air"
+          name = "LR: Air";
+    };
+    class group9 {
+        freq = 33;
     };
 };
