@@ -18,7 +18,7 @@
 */
 
 
-loadoutFactionBlu = "";
+loadoutFactionBlu = "UsDeltaForce";
 loadoutFactionOpf = "";
 loadoutFactionInd = "";
 
@@ -26,7 +26,7 @@ loadoutFactionInd = "";
 loadoutFactionCiv = "";
 
 
-#define NIGHTVISION
-#define GUNLIGHTS
+//#define NIGHTVISION
+//#define GUNLIGHTS
 #define LASERS
 #define SUPPRESSORS
