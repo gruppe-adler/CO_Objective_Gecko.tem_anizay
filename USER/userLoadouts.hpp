@@ -103,9 +103,7 @@ class UsDeltaForce {
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
             binoculars = "ACE_Vector";
-            addItemsToUniform[] = {
-            
-            };
+
             addItemsToVest[] = {
                 LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
                 LIST_2("rhs_mag_m67"),
@@ -139,9 +137,7 @@ class UsDeltaForce {
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
             binoculars = "ACE_Vector";
-            addItemsToUniform[] = {
-               
-            };
+
             addItemsToVest[] = {
                 LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
                 LIST_2("rhs_mag_m67"),
@@ -169,14 +165,9 @@ class UsDeltaForce {
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
             binoculars = "ACE_Vector";
-            addItemsToUniform[] = {
-               
-            };
+
             addItemsToVest[] = {
-                LIST_2("rhs_mag_m67"),
-                LIST_2("SmokeShell"),
-                LIST_2("SmokeShellBlue"),
-                LIST_2("SmokeShellGreen"),
+                LIST_3("ACE_M84"),
                 LIST_4("rhsusf_5Rnd_Slug"),
                 LIST_4("rhsusf_5Rnd_00Buck"),
                 LIST_4("hlc_30rnd_556x45_MDim_EMAG")
@@ -208,9 +199,7 @@ class UsDeltaForce {
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
-            addItemsToUniform[] = {
-               
-            };
+
             addItemsToVest[] = {
                 LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
                 LIST_2("rhs_mag_m67"),
@@ -236,9 +225,7 @@ class UsDeltaForce {
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
-            addItemsToUniform[] = {
-            
-            };
+
             addItemsToVest[] = {
                 LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
                 LIST_2("rhs_mag_m67"),
@@ -269,11 +256,7 @@ class UsDeltaForce {
             handgunWeaponMagazine = "rhsusf_mag_17Rnd_9x19_JHP";
             binoculars = "Laserdesignator_03";
             nvgoggles = "ACE_NVG_Gen4";
-            addItemsToUniform[] = {
-                LIST_1("SmokeShellGreen"),
-                LIST_1("Chemlight_green"),
-                LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag")
-            };
+
             addItemsToVest[] = {
                 LIST_3("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
                 LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
@@ -298,11 +281,7 @@ class UsDeltaForce {
             handgunWeaponMagazine = "rhsusf_mag_17Rnd_9x19_JHP";
             binoculars = "Laserdesignator_03";
             nvgoggles = "ACE_NVG_Gen4";
-            addItemsToUniform[] = {
-                LIST_1("SmokeShellGreen"),
-                LIST_1("Chemlight_green"),
-                LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag")
-            };
+
             addItemsToVest[] = {
                 LIST_3("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
                 LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),

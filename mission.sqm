@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=982;
+		nextID=1019;
 	};
 	class Camera
 	{
-		pos[]={3531.1382,183.33321,4564.9219};
-		dir[]={0.12937015,-0.54043132,-0.83138841};
-		up[]={0.083095774,0.84138536,-0.53400987};
-		aside[]={-0.98811322,-1.2261444e-007,-0.15375859};
+		pos[]={8361.9727,113.45282,6834.6265};
+		dir[]={-0.90332681,0.0057854503,0.42892054};
+		up[]={0.0052241255,0.99998552,-0.0024808762};
+		aside[]={0.42892724,3.4715049e-007,0.90334344};
 	};
 };
 binarizationWanted=0;
@@ -15098,8 +15098,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8351.7041,112.72163,6842.2544};
-				angles[]={0,2.2465224,0};
+				position[]={8351.7041,112.72117,6842.2539};
+				angles[]={0,2.2465181,0};
 			};
 			side="Empty";
 			flags=4;
@@ -15110,7 +15110,7 @@ class Mission
 			};
 			id=1755;
 			type="Land_TripodScreen_01_large_F";
-			atlOffset=0.13845825;
+			atlOffset=0.13800049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15128,7 +15128,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="data\loadpic.jpg";
+							value="data\map.paa";
 						};
 					};
 				};
@@ -15378,7 +15378,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8350.9912,112.72163,6839.8218};
+				position[]={8350.9912,112.72117,6839.8218};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
@@ -15390,7 +15390,7 @@ class Mission
 			};
 			id=1766;
 			type="Land_TripodScreen_01_large_F";
-			atlOffset=0.13845825;
+			atlOffset=0.13800049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15408,7 +15408,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="data\loadpic.jpg";
+							value="data\loadpic.paa";
 						};
 					};
 				};
@@ -15439,8 +15439,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8351.6553,112.72163,6837.4067};
-				angles[]={0,1.118121,0};
+				position[]={8351.6553,112.72117,6837.4072};
+				angles[]={0,1.1181278,0};
 			};
 			side="Empty";
 			flags=4;
@@ -15451,7 +15451,7 @@ class Mission
 			};
 			id=1767;
 			type="Land_TripodScreen_01_large_F";
-			atlOffset=0.13845825;
+			atlOffset=0.13800049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15469,7 +15469,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="data\loadpic.jpg";
+							value="data\map.paa";
 						};
 					};
 				};
