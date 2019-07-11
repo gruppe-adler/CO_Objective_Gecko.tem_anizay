@@ -178,7 +178,7 @@ class UsDeltaForce {
                 LIST_2("SmokeShellBlue"),
                 LIST_2("SmokeShellGreen"),
                 LIST_4("rhsusf_5Rnd_Slug"),
-                LIST_4("rhsusf_5Rnd_00Buck")
+                LIST_4("rhsusf_5Rnd_00Buck"),
                 LIST_4("hlc_30rnd_556x45_MDim_EMAG")
 
             };
