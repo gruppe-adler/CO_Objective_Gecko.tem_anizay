@@ -75,7 +75,7 @@ class UsDeltaForce {
             addItemsToUniform[] = {
             	LIST_5("ACE_CableTie"),
                 LIST_1("ACE_MapTools"),
-                LIST_1("rhsusf_mag_17Rnd_9x19_JHP")
+                LIST_1("rhsusf_mag_17Rnd_9x19_JHP"),
 
 				LIST_4("ACE_packingBandage"),
                 LIST_4("ACE_elasticBandage"),
@@ -93,7 +93,7 @@ class UsDeltaForce {
             };
         };
         //Medic
-        class medic_F {
+        class medic_F: Soldier_F {
             vest = "rhsusf_spcs_ocp_medic";
             backpack = "B_Kitbag_mcamo";
             primaryWeapon = "rhs_weap_mk18_KAC_d";
@@ -130,7 +130,7 @@ class UsDeltaForce {
             };
         };
         //Grenadier
-        class Soldier_GL_F {
+        class Soldier_GL_F: Soldier_F {
             vest = "rhsusf_spcs_ocp_grenadier";
             backpack = "rhsusf_assault_eagleaiii_ocp";
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
@@ -159,7 +159,7 @@ class UsDeltaForce {
             };
         };
         //Breacher
-        class engineer_F {
+        class engineer_F: Soldier_F {
             vest = "rhsusf_spcs_ocp_rifleman";
             backpack = "rhsusf_assault_eagleaiii_ocp";
             primaryWeapon = "rhs_weap_mk18_KAC_d";
@@ -198,7 +198,7 @@ class UsDeltaForce {
             };
         };
         //TL
-        class Soldier_TL_F {
+        class Soldier_TL_F: Soldier_F {
             vest = "rhsusf_spcs_ocp_teamleader";
             backpack = "TFAR_rt1523g_big_rhs";
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
@@ -226,7 +226,7 @@ class UsDeltaForce {
             };
         };
 		//SQL
-        class Soldier_SL_F {
+        class Soldier_SL_F: Soldier_F {
             vest = "rhsusf_spcs_ocp_squadleader";
             backpack = "TFAR_rt1523g_big_rhs";
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
@@ -254,7 +254,7 @@ class UsDeltaForce {
             };
         };
         //Heli Pilot One
-        class Helipilot_F {
+        class Helipilot_F: Soldier_F {
             uniform = "U_B_HeliPilotCoveralls";
             vest = "V_LegStrapBag_olive_F";
             backpack = "B_Parachute";
@@ -283,7 +283,7 @@ class UsDeltaForce {
             };
         };
         //Heli Pilot Two
-        class helicrew_F {
+        class helicrew_F: Soldier_F {
             uniform = "U_B_HeliPilotCoveralls";
             vest = "V_LegStrapBag_olive_F";
             backpack = "B_Parachute";
