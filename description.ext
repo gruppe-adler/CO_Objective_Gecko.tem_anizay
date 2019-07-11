@@ -147,3 +147,20 @@ class CfgGradCustomGear {
 class CfgGradFortifications {
     #include "USER\userFortifications.hpp"
 };
+
+//SUSHI SCRIPT ============================================================
+
+#define SAF_DEF
+    #include "sushi_scripts\core\init.cpp"
+    #include "sushi_scripts\breach\init.cpp"
+#undef SAF_DEF
+
+class CfgFunctions
+{
+    class SAF {
+        #define SAF_FNCS
+            #include "sushi_scripts\core\init.cpp"
+            #include "sushi_scripts\breach\init.cpp"
+        #undef SAF_FNCS
+    };
+};

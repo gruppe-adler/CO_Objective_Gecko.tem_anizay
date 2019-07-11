@@ -170,7 +170,7 @@ class UsDeltaForce {
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
             binoculars = "ACE_Vector";
             addItemsToUniform[] = {
-                LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
+                LIST_8("hlc_30rnd_556x45_MDim_EMAG")
                
             };
             addItemsToVest[] = {

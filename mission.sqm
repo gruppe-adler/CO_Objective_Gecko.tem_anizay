@@ -8,22 +8,22 @@ class EditorData
 	toggles=1545;
 	class ItemIDProvider
 	{
-		nextID=4080;
+		nextID=4082;
 	};
 	class MarkerIDProvider
 	{
-		nextID=23;
+		nextID=25;
 	};
 	class LayerIndexProvider
 	{
-		nextID=797;
+		nextID=834;
 	};
 	class Camera
 	{
-		pos[]={3518.269,176.51746,4516.812};
-		dir[]={0.5567565,-0.71734071,-0.41889635};
-		up[]={0.57322949,0.69670433,-0.43129101};
-		aside[]={-0.60123104,7.9780875e-009,-0.79909527};
+		pos[]={3536.2996,187.11902,4562.9805};
+		dir[]={0.067627594,-0.44304898,-0.89405042};
+		up[]={0.03342345,0.8964501,-0.44185346};
+		aside[]={-0.99723881,-4.1313797e-007,-0.075435773};
 	};
 };
 binarizationWanted=0;
@@ -4018,7 +4018,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=656;
+		items=658;
 		class Item0
 		{
 			dataType="Layer";
@@ -30423,6 +30423,214 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item656
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3538.4883,156.88,4513.5366};
+			};
+			areaSize[]={1,-1,1};
+			id=4080;
+			type="ModuleEditTerrainObject_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#name";
+					expression="_this setVariable [""#name"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=7;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="#initServer";
+					expression="_this setVariable [""#initServer"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="#state";
+					expression="_this setVariable [""#state"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="#allowDamage";
+					expression="_this setVariable [""#allowDamage"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="#doorStates";
+					expression="_this setVariable [""#doorStates"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=5;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="#init";
+					expression="_this setVariable [""#init"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item657
+		{
+			dataType="Marker";
+			position[]={3533.584,156.88,4507.3818};
+			name="LockAllDoors1";
+			text="LockAllDoors1";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="Border";
+			a=30;
+			b=30;
+			drawBorder=1;
+			id=4081;
 		};
 	};
 	class Connections
