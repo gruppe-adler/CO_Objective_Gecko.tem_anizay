@@ -182,15 +182,20 @@ class UsDeltaForce {
                 LIST_8("rhsusf_5Rnd_00Buck")
             };
             addItemsToBackpack[] = {
-            	{"rhs_weap_M590_5RD"};
-				class rhs_weap_M590_5RD {
- 		    	muzzle = "";
-    			pointer = "";
-   				optics = "";
-    			magazine = "rhsusf_5Rnd_00Buck";
-    			underBarrelMagazine = "";
-    			underBarrel = "";
-				};
+                "rhs_weap_M590_5RD",
+                LIST_1("ACE_DefusalKit"),
+                LIST_1("ACE_Clacker"),
+                LIST_1("ACE_wirecutter"),
+                LIST_6("DemoCharge_Remote_Mag")
+            };    
+            class rhs_weap_M590_5RD {
+                     muzzle = "";
+                    pointer = "";
+                       optics = "";
+                    magazine = "rhsusf_5Rnd_00Buck";
+                    underBarrelMagazine = "";
+                    underBarrel = "";
+            };
                 LIST_1("ACE_DefusalKit"),
                 LIST_1("ACE_Clacker"),
                 LIST_1("ACE_wirecutter"),
