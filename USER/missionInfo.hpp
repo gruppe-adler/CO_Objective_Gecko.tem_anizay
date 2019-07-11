@@ -8,3 +8,10 @@ onLoadMission = "Move, shoot, communicate.";                                    
 loadScreen = "data\loadpic.paa";                                                // Ladebild
 overviewPicture = "data\loadpic.paa";                                                           // Bild, das in der Missionsauswahl angezeigt wird
 overviewText = "Move, shoot, communicate.";                                                              // Text, der in der Missionsauswahl angezeigt wird
+
+//SUSHI SCRIPT ============================================================
+
+#define SAF_DEF
+    #include "..\sushi_scripts\core\init.cpp"
+    #include "..\sushi_scripts\breach\init.cpp"
+#undef SAF_DEF

@@ -21,47 +21,47 @@
 
 //SHORTRANGE KANÄLE ============================================================
 class shortrange {
-    class SR_Raider {
+    class net1 {
         freq = 50;
         name = "SR: Raider";
     };
 
-    class SR_Alpha {
+    class net2 {
         freq = 60;
         name = "SR: Alpha";
     };
 
-    class SR_Alpha_One {
+    class net3 {
         freq = 70;
         name = "SR: Alpha One";
     };
 
-    class SR_Alpha_Two {
+    class net4 {
         freq = 80;
         name = "SR: Alpha Two";
     };
 
-    class SR_Bravo {
+    class net5 {
         freq = 90;
         name = "SR: Bravo";
     };
 
-    class SR_Bravo_One {
+    class net6 {
         freq = 100;
         name = "SR: Bravo One";
     };
 
-    class SR_Bravo_Two {
+    class net7 {
         freq = 110;
         name = "SR: Bravo Two";
     };
 
-    class SR_Bandit_One {
+    class net8 {
         freq = 120;
         name = "SR: Bandit One";
     };
 
-    class SR_Bandit_Two {
+    class net9 {
         freq = 130;
         name = "SR: Bandit Two";
     };
@@ -70,11 +70,11 @@ class shortrange {
 
 //LONGRANGE KANÄLE =============================================================
 class longrange {
-    class LR_Command {
+    class net1 {
         freq = 32;
         name = "LR: Command";
     };
-    class LR_Air {
+    class net2 {
         freq = 33;
           name = "LR: Air";
     };

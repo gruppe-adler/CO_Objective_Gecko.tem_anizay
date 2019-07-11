@@ -39,15 +39,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 1;
 
-                channel1 = "SR_Raider";
+                channel1 = "net1";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR_Command";
-                channel2 = "LR_Air";
+                channel1 = "net1";
+                channel2 = "net2";
             };
         };
     class group2 {
@@ -56,15 +56,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 2;
 
-                channel2 = "SR_Alpha";
+                channel2 = "net2";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR_Command";
-                channel2 = "LR_Air";    
+                channel1 = "net1";
+                channel2 = "net2";    
             };
         };
     class group3 {
@@ -73,15 +73,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 3;
 
-                channel3 = "SR_Alpha_One";
+                channel3 = "net3";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR_Command";
-                channel2 = "LR_Air";    
+                channel1 = "net1";
+                channel2 = "net2";    
             };
         }; 
     class group4 {
@@ -90,15 +90,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 4;
 
-                channel4 = "SR_Alpha_Two";
+                channel4 = "net4";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR_Command";
-                channel2 = "LR_Air";    
+                channel1 = "net1";
+                channel2 = "net2";    
             };
         };   
     class group5 {
@@ -107,15 +107,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 5;
 
-                channel5 = "SR_Bravo";
+                channel5 = "net5";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR: Command";
-                channel2 = "LR_Air";    
+                channel1 = "net1";
+                channel2 = "net2";    
             };
         };
     class group6 {
@@ -124,15 +124,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 6;
 
-                channel6 = "SR_Bravo_One";
+                channel6 = "net6";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR_Command";
-                channel2 = "LR_Air";    
+                channel1 = "net1";
+                channel2 = "net2";    
             };
         }; 
     class group7 {
@@ -141,15 +141,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 7;
 
-                channel7 = "SR_Bravo_Two";
+                channel7 = "net7";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR_Command";
-                channel2 = "LR_Air";    
+                channel1 = "net1";
+                channel2 = "net2";    
             };
         };
     class group8 {
@@ -158,15 +158,15 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 8;
 
-                channel8 = "SR_Bandit_One";
+                channel8 = "net8";
             };
 
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
                 
-                channel1 = "LR_Air";
-                channel2 = "LR_Command";
+                channel1 = "net2";
+                channel2 = "net1";
             };
         }; 
     class group9 {
@@ -175,14 +175,14 @@ class BLUFOR {
             class shortrange {
                 defaultChannel = 9;
 
-                channel9 = "SR_Bandit_Two";
+                channel9 = "net9";
             };
             class longrange {
                 defaultChannel = 1;
                 altChannel = 2;
 
-                channel1 = "LR_Air";
-                channel2 = "LR_Command";
+                channel1 = "net2";
+                channel2 = "net1";
             };
         };                               
 };

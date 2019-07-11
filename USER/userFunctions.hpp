@@ -5,7 +5,7 @@
 
 //SUSHI SCRIPT ============================================================
 
-#define SAF_DEF
+/*#define SAF_DEF
     #include "..\sushi_scripts\core\init.cpp"
     #include "..\sushi_scripts\breach\init.cpp"
 #undef SAF_DEF
@@ -15,4 +15,4 @@ class SAF {
         #include "..\sushi_scripts\core\init.cpp"
         #include "..\sushi_scripts\breach\init.cpp"
     #undef SAF_FNCS
-};
+};*/

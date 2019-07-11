@@ -170,7 +170,6 @@ class UsDeltaForce {
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
             binoculars = "ACE_Vector";
             addItemsToUniform[] = {
-                LIST_8("hlc_30rnd_556x45_MDim_EMAG")
                
             };
             addItemsToVest[] = {
@@ -178,15 +177,17 @@ class UsDeltaForce {
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellBlue"),
                 LIST_2("SmokeShellGreen"),
-                LIST_8("rhsusf_5Rnd_Slug"),
-                LIST_8("rhsusf_5Rnd_00Buck")
+                LIST_4("rhsusf_5Rnd_Slug"),
+                LIST_4("rhsusf_5Rnd_00Buck")
+                LIST_4("hlc_30rnd_556x45_MDim_EMAG")
+
             };
             addItemsToBackpack[] = {
                 "rhs_weap_M590_5RD",
                 LIST_1("ACE_DefusalKit"),
                 LIST_1("ACE_Clacker"),
                 LIST_1("ACE_wirecutter"),
-                LIST_6("DemoCharge_Remote_Mag")
+                LIST_3("DemoCharge_Remote_Mag")
             };    
             class rhs_weap_M590_5RD {
                      muzzle = "";
@@ -195,11 +196,6 @@ class UsDeltaForce {
                     magazine = "rhsusf_5Rnd_00Buck";
                     underBarrelMagazine = "";
                     underBarrel = "";
-            };
-                LIST_1("ACE_DefusalKit"),
-                LIST_1("ACE_Clacker"),
-                LIST_1("ACE_wirecutter"),
-                LIST_6("DemoCharge_Remote_Mag")
             };
         };
         //TL
