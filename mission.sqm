@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1339;
+		nextID=1384;
 	};
 	class Camera
 	{
@@ -13105,7 +13105,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8589.0176,111.54144,6219.5708};
-						angles[]={-0,6.2723122,0};
+						angles[]={0,6.2723122,0};
 					};
 					side="West";
 					flags=6;
@@ -13166,7 +13166,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8589.0176,111.54144,6219.5708};
-						angles[]={-0,6.2723122,0};
+						angles[]={0,6.2723122,0};
 					};
 					side="West";
 					flags=4;
@@ -13288,7 +13288,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8589.0176,117.40558,6219.521};
-				angles[]={-0,6.2723122,0};
+				angles[]={0,6.2723122,0};
 			};
 			side="West";
 			flags=6;
@@ -31393,7 +31393,7 @@ class Mission
 			};
 			id=4118;
 			type="jbad_crates";
-			atlOffset=1.5258789e-005;
+			atlOffset=-0.53529358;
 		};
 		class Item403
 		{
@@ -31502,7 +31502,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5317.4434,182.675,2661.3518};
-				angles[]={-0,5.4914699,0};
+				angles[]={0,5.4914699,0};
 			};
 			side="Empty";
 			class Attributes
@@ -31915,7 +31915,7 @@ class Mission
 			};
 			id=4149;
 			type="LOP_BH_Static_DSHKM";
-			atlOffset=1.5258789e-005;
+			atlOffset=-1.0280457;
 		};
 		class Item434
 		{
@@ -31933,7 +31933,7 @@ class Mission
 			};
 			id=4150;
 			type="LOP_BH_Static_DSHKM";
-			atlOffset=1.5258789e-005;
+			atlOffset=-0.97731018;
 		};
 		class Item435
 		{
@@ -31951,6 +31951,7 @@ class Mission
 			};
 			id=4151;
 			type="LOP_BH_Static_DSHKM";
+			atlOffset=-0.95501709;
 		};
 		class Item436
 		{
@@ -31968,7 +31969,7 @@ class Mission
 			};
 			id=4152;
 			type="LOP_BH_Static_DSHKM";
-			atlOffset=3.0517578e-005;
+			atlOffset=-0.77072144;
 		};
 		class Item437
 		{
@@ -31986,7 +31987,7 @@ class Mission
 			};
 			id=4153;
 			type="LOP_BH_Static_DSHKM";
-			atlOffset=1.5258789e-005;
+			atlOffset=-0.88427734;
 		};
 		class Item438
 		{
@@ -32040,7 +32041,7 @@ class Mission
 			};
 			id=4156;
 			type="rhsgref_ins_DSHKM_Mini_TriPod";
-			atlOffset=1.5258789e-005;
+			atlOffset=-0.94345093;
 		};
 		class Item441
 		{
@@ -32059,7 +32060,7 @@ class Mission
 			};
 			id=4157;
 			type="Land_WoodenBox_F";
-			atlOffset=1.5258789e-005;
+			atlOffset=0.0047149658;
 		};
 		class Item442
 		{
@@ -32078,6 +32079,7 @@ class Mission
 			};
 			id=4158;
 			type="Land_WoodenBox_F";
+			atlOffset=0.004699707;
 		};
 		class Item443
 		{
@@ -40496,6 +40498,7 @@ class Mission
 			};
 			id=4947;
 			type="LOP_CHR_Civ_UAZ";
+			atlOffset=-1.5258789e-005;
 		};
 		class Item584
 		{
@@ -40512,6 +40515,7 @@ class Mission
 			};
 			id=4948;
 			type="RDS_Gaz24_Civ_02";
+			atlOffset=-0.0028686523;
 		};
 	};
 	class Connections

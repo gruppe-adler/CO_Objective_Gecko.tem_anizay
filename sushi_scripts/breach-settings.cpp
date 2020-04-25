@@ -40,12 +40,12 @@ class BREACH
 				closeDoors = 1; //<1- close all doors in zone, 0- do nothing
 				lockAll = 1; //< 1- lock all closed doors in zone, 2-lock random (25%) closed doors, 3-lock 50% of doors in the zone, 4-lock 75% of doors in the zone
 			};
-			class LockAllDoors3 //< custom zone name
-			{
-				zone = "LockAllDoors3"; //< marker (rectangle or elipse) that covers zone.  Change this name to the one you made
-				closeDoors = 1; //<1- close all doors in zone, 0- do nothing
-				lockAll = 1; //< 1- lock all closed doors in zone, 2-lock random (25%) closed doors, 3-lock 50% of doors in the zone, 4-lock 75% of doors in the zone
-			};
+			//class LockAllDoors3 //< custom zone name
+			//{
+			//	zone = "LockAllDoors3"; //< marker (rectangle or elipse) that covers zone.  Change this name to the one you made
+			//	closeDoors = 1; //<1- close all doors in zone, 0- do nothing
+			//	lockAll = 1; //< 1- lock all closed doors in zone, 2-lock random (25%) closed doors, 3-lock 50% of doors in the zone, 4-lock 75% of doors in the zone
+			//};
 			class LockAllDoors4 //< custom zone name
 			{
 				zone = "LockAllDoors4"; //< marker (rectangle or elipse) that covers zone.  Change this name to the one you made
