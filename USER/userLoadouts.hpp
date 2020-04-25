@@ -146,7 +146,6 @@ class UsDeltaForce {
                 LIST_2("SmokeShellGreen")
             };
             addItemsToBackpack[] = {
-                LIST_4("ACE_HuntIR_M203"),
                 LIST_2("1Rnd_Smoke_Grenade_shell"),
                 LIST_2("1Rnd_SmokeRed_Grenade_shell"),
                 LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -208,7 +207,6 @@ class UsDeltaForce {
                 LIST_2("SmokeShellGreen")
             };
             addItemsToBackpack[] = {
-                LIST_4("ACE_HuntIR_M203"),
                 LIST_1("1Rnd_Smoke_Grenade_shell"),
                 LIST_2("1Rnd_SmokeRed_Grenade_shell"),
                 LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -234,7 +232,6 @@ class UsDeltaForce {
                 LIST_2("SmokeShellGreen")
             };
             addItemsToBackpack[] = {
-                LIST_4("ACE_HuntIR_M203"),
                 LIST_1("1Rnd_Smoke_Grenade_shell"),
                 LIST_2("1Rnd_SmokeRed_Grenade_shell"),
                 LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
