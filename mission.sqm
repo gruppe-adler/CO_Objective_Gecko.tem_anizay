@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4949;
+		nextID=4970;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8536.1094,158.61404,6202.251};
-		dir[]={0.69213003,-0.35756275,0.62716883};
-		up[]={0.26500705,0.93387908,0.24013764};
-		aside[]={0.67155844,-4.2084139e-007,-0.74110985};
+		pos[]={1530.262,146.73593,8672.5225};
+		dir[]={-0.10337944,-0.42157367,-0.90097785};
+		up[]={-0.048061591,0.90675843,-0.41887853};
+		aside[]={-0.99354625,-2.4071778e-007,0.11399786};
 	};
 };
 binarizationWanted=0;
@@ -173,13 +173,14 @@ addons[]=
 	"A3_Structures_F_EPA_Items_Vessels",
 	"A3_Structures_F_EPB_Civ_Camping",
 	"A3_Structures_F_EPA_Items_Medical",
-	"CUP_CAStructures_E_HouseL"
+	"CUP_CAStructures_E_HouseL",
+	"gm_structures_euro_80"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=100;
+		items=101;
 		class Item0
 		{
 			className="A3_Modules_F_Heli";
@@ -814,6 +815,13 @@ class AddonsMetaData
 		{
 			className="CUP_CAStructures_E_HouseL";
 			name="CUP_CAStructures_E_HouseL";
+		};
+		class Item100
+		{
+			className="gm_structures_euro_80";
+			name="gm_structures_euro_80";
+			author="Global Mobilization";
+			url="global-mobilization.com";
 		};
 	};
 };
@@ -3958,7 +3966,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=585;
+		items=603;
 		class Item0
 		{
 			dataType="Layer";
@@ -40516,6 +40524,294 @@ class Mission
 			id=4948;
 			type="RDS_Gaz24_Civ_02";
 			atlOffset=-0.0028686523;
+		};
+		class Item585
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1540.6123,143.72691,8681.5166};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4949;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item586
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1537.5303,143.72691,8681.2207};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4950;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item587
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1533.3214,143.72691,8680.541};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4951;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item588
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1536.4034,143.72691,8680.8369};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4952;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item589
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1533.552,143.72691,8678.1934};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4953;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item590
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1536.634,143.72691,8678.4893};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4954;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item591
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1537.7495,143.72691,8678.9453};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4955;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item592
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1540.8315,143.72691,8679.2412};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4956;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item593
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1528.8278,143.72691,8680.1572};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4958;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item594
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1531.9098,143.72691,8680.4531};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4959;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item595
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1532.1404,143.72691,8678.1055};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4961;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item596
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1539.8541,143.72691,8669.0615};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4963;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item597
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1540.0734,143.72691,8666.7861};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4964;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item598
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1543.1554,143.72691,8667.082};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4965;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item599
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1538.4901,143.72691,8668.8496};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4966;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item600
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1535.4081,143.72691,8668.5537};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4967;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item601
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1535.6273,143.72691,8666.2783};
+				angles[]={-0,3.044837,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4968;
+			type="land_gm_euro_furniture_bed_02";
+		};
+		class Item602
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1538.7094,143.72691,8666.5742};
+				angles[]={-0,3.0422223,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4969;
+			type="land_gm_euro_furniture_bed_02";
 		};
 	};
 	class Connections
