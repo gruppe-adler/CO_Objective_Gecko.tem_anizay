@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1744;
+		nextID=1789;
 	};
 	class Camera
 	{
-		pos[]={3656.4263,150.16223,6802.624};
-		dir[]={-0.063730031,-0.76997775,-0.63505149};
-		up[]={-0.076889038,0.63804549,-0.76612484};
-		aside[]={-0.99508667,3.9495062e-006,0.099913619};
+		pos[]={8410.3311,136.54001,7195.3018};
+		dir[]={0.18507557,-0.26674899,-0.94584185};
+		up[]={0.051225498,0.96376455,-0.2617906};
+		aside[]={-0.98139834,-2.8812792e-008,-0.19203314};
 	};
 };
 binarizationWanted=0;
@@ -16432,26 +16432,28 @@ class Mission
 				class Item2
 				{
 					dataType="Waypoint";
-					position[]={4572.9536,344.16473,7591.2534};
+					position[]={8579.8809,344.16455,9743.166};
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=1874;
 					type="Move";
-					atlOffset=206.28389;
+					atlOffset=222.50131;
 				};
 				class Item3
 				{
 					dataType="Waypoint";
-					position[]={3338.4324,1014.0518,5701.106};
+					position[]={10365.776,1014.0518,11481.763};
+					expCond="call{true}";
+					expActiv="call{deleteVehicle (vehicle this);}";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=1875;
 					type="Move";
-					atlOffset=881.09399;
+					atlOffset=873.70178;
 				};
 			};
 			class Attributes
