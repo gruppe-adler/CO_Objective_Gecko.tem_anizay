@@ -8,7 +8,7 @@ class EditorData
 	toggles=514;
 	class ItemIDProvider
 	{
-		nextID=5407;
+		nextID=5410;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1789;
+		nextID=1834;
 	};
 	class Camera
 	{
-		pos[]={7952.2168,222.6848,6783.9004};
-		dir[]={-0.90227222,-0.31937349,-0.28983045};
-		up[]={-0.30409804,0.94762182,-0.097684078};
-		aside[]={-0.30584437,1.1868542e-007,0.95212585};
+		pos[]={8572.0098,156.21027,6600.8306};
+		dir[]={-0.24043505,-0.67796999,0.69481969};
+		up[]={-0.22173399,0.73499352,0.64077759};
+		aside[]={0.94512242,-1.3975659e-007,0.32705042};
 	};
 };
 binarizationWanted=0;
@@ -7172,7 +7172,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=888;
+		items=891;
 		class Item0
 		{
 			dataType="Layer";
@@ -7475,13 +7475,14 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={890.9856,185.21698,3290.499};
-						angles[]={6.0514274,0,6.0628214};
+						position[]={8410.5498,161.54001,6852.4531};
+						angles[]={6.0514231,0,6.06282};
 					};
 					name="virtualZeus1";
 					isPlayable=1;
 					id=29;
 					type="VirtualCurator_F";
+					atlOffset=50.000008;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7528,14 +7529,14 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={890.72046,170.09164,3189.8999};
-						angles[]={0.0039967569,0,6.2571907};
+						position[]={8408.6738,161.54001,6840.665};
+						angles[]={0.0039968039,0,6.2571969};
 					};
 					name="virtualZeus2";
 					isPlayable=1;
 					id=30;
 					type="VirtualCurator_F";
-					atlOffset=-1.5258789e-005;
+					atlOffset=50.000008;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7582,13 +7583,14 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={891.24976,171.58852,3090.0952};
-						angles[]={0.041976813,0,6.2053437};
+						position[]={8408.2598,161.54001,6820.4888};
+						angles[]={0.041975167,0,6.2053437};
 					};
 					name="virtualZeus3";
 					isPlayable=1;
 					id=31;
 					type="VirtualCurator_F";
+					atlOffset=50.000008;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7968,13 +7970,13 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={790.89185,190.78508,3289.9873};
-						angles[]={5.9844041,0,0.0099949092};
+						position[]={8382.1543,161.54001,6853.1138};
+						angles[]={5.9844027,0,0.010000736};
 					};
 					isPlayable=1;
 					id=44;
 					type="VirtualSpectator_F";
-					atlOffset=1.5258789e-005;
+					atlOffset=50.000008;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8079,12 +8081,13 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={790.89185,173.59294,3190.3413};
-						angles[]={0.019996032,0,6.1382108};
+						position[]={8382.0898,161.54001,6840.374};
+						angles[]={0.020001473,0,6.1382184};
 					};
 					isPlayable=1;
 					id=45;
 					type="VirtualSpectator_F";
+					atlOffset=50.000008;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8189,12 +8192,13 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={791.44556,189.64262,3089.0342};
-						angles[]={0.14301735,0,6.0742793};
+						position[]={8382.4141,161.54001,6820.5229};
+						angles[]={0.14301229,0,6.0742869};
 					};
 					isPlayable=1;
 					id=46;
 					type="VirtualSpectator_F";
+					atlOffset=50.000008;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11671,13 +11675,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={8389.6758,111.54144,6844.0488};
+								position[]={8389.6758,111.54144,6844.0498};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
 								description="Gruppenführer@Bravo";
+								isPlayer=1;
 								isPlayable=1;
 								aiRadarUsage=544042752;
 								class Inventory
@@ -15904,7 +15909,7 @@ class Mission
 				};
 			};
 			id=729;
-			atlOffset=0.071647644;
+			atlOffset=0.061454773;
 		};
 		class Item2
 		{
@@ -52518,6 +52523,57 @@ class Mission
 			};
 			id=5351;
 			type="Land_Metal_Shed_ruins_F";
+		};
+		class Item888
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8504.6689,454.4541,6827.4854};
+				angles[]={0,0,0.38222709};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="camPos_01";
+			};
+			id=5407;
+			type="HeliHEmpty";
+			atlOffset=342.91409;
+		};
+		class Item889
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8658.4277,120.32381,6623.54};
+				angles[]={0,0,0.38222709};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="camPos_02";
+			};
+			id=5408;
+			type="HeliHEmpty";
+			atlOffset=9.9999924;
+		};
+		class Item890
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8587.2598,126.54001,6710.0254};
+				angles[]={0,0,0.38222709};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="camPos_03";
+			};
+			id=5409;
+			type="HeliHEmpty";
+			atlOffset=15.000008;
 		};
 	};
 	class Connections

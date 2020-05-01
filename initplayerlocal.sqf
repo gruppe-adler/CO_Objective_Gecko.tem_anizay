@@ -40,3 +40,15 @@ grad_template_ratingEH = player addEventHandler ["HandleRating",{0}];
     }, 2.5, _newUnit] call CBA_fnc_addPerFrameHandler;
     missionNamespace setVariable ["grad_bleedOutHandler", _handle];
 }, true] call CBA_fnc_addPlayerEventHandler;
+
+["CBA_loadingScreenDone", {
+    if (!(didJIP) || {(didJIP && !(isNil "GRAD_USER_introOver"))}) then {
+        [{time > (_this + 5)},{
+            //if (isNull (getAssignedCuratorLogic player)) then {
+                STHud_UIMode = 0;
+                diwako_dui_main_toggled_off = true;
+                [] call GRAD_USER_fnc_intro;
+            //};
+        },time] call CBA_fnc_waitUntilAndExecute;
+    };
+}] call CBA_fnc_addEventHandler;

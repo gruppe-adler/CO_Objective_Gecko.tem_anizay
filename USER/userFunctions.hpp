@@ -11,3 +11,10 @@ class SAF {
         #include "..\sushi_scripts\breach\init.cpp"
     #undef SAF_FNCS
 };
+
+class GRAD_USER {
+    class common {
+        file = "USER\functions";
+        class intro {};
+    };
+};
