@@ -168,20 +168,11 @@ class UsDeltaForce {
 
             };
             addItemsToBackpack[] = {
-                "rhs_weap_M590_5RD",
                 LIST_1("ACE_DefusalKit"),
                 LIST_1("ACE_Clacker"),
                 LIST_1("ACE_wirecutter"),
                 LIST_3("DemoCharge_Remote_Mag")
             };    
-            class rhs_weap_M590_5RD {
-                     muzzle = "";
-                    pointer = "";
-                       optics = "";
-                    magazine = "rhsusf_5Rnd_00Buck";
-                    underBarrelMagazine = "";
-                    underBarrel = "";
-            };
         };
         //TL
         class Soldier_TL_F: Soldier_F {
