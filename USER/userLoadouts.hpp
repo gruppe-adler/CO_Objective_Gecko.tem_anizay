@@ -32,7 +32,7 @@ class UsDeltaForce {
         primaryWeapon = "rhs_weap_mk18_KAC_d";
         primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
         primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
-        primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+        primaryWeaponOptics = "optic_Holosight";
         primaryWeaponPointer = "rhsusf_acc_anpeq15";
         primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
         primaryWeaponUnderbarrelMagazine = "";
@@ -67,7 +67,7 @@ class UsDeltaForce {
             backpack = "";
             primaryWeapon = "rhs_weap_mk18_KAC_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-            primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+            primaryWeaponOptics = "optic_Holosight";
             primaryWeaponPointer = "rhsusf_acc_anpeq15";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
@@ -98,7 +98,7 @@ class UsDeltaForce {
             backpack = "B_Kitbag_mcamo";
             primaryWeapon = "rhs_weap_mk18_KAC_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-            primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+            primaryWeaponOptics = "optic_Holosight";
             primaryWeaponPointer = "rhsusf_acc_anpeq15";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
@@ -133,7 +133,7 @@ class UsDeltaForce {
             backpack = "rhsusf_assault_eagleaiii_ocp";
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-            primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+            primaryWeaponOptics = "optic_Holosight";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
             binoculars = "ACE_Vector";
@@ -159,7 +159,7 @@ class UsDeltaForce {
             backpack = "rhsusf_assault_eagleaiii_ocp";
             primaryWeapon = "rhs_weap_mk18_KAC_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-            primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+            primaryWeaponOptics = "optic_Holosight";
             primaryWeaponPointer = "rhsusf_acc_anpeq15";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
@@ -194,7 +194,7 @@ class UsDeltaForce {
             backpack = "TFAR_rt1523g_big_rhs";
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-            primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+            primaryWeaponOptics = "optic_Holosight";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
@@ -219,7 +219,7 @@ class UsDeltaForce {
             backpack = "TFAR_rt1523g_big_rhs";
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-            primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+            primaryWeaponOptics = "optic_Holosight";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
