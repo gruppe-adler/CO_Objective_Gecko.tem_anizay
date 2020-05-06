@@ -52,3 +52,18 @@ grad_template_ratingEH = player addEventHandler ["HandleRating",{0}];
         },time] call CBA_fnc_waitUntilAndExecute;
     };
 }] call CBA_fnc_addEventHandler;
+
+if (typeOf player == "B_engineer_F") then {
+    if(!isNil "ace_interact_menu_fnc_createAction") then {
+        private _action = ["toggle_primary","Toggle primary weapon","",{
+            [ace_player] spawn second_primary_fnc_toggle;
+        },{[ace_player] call second_primary_fnc_toggleCondition},{},[], [0,0,0], 100] call ace_interact_menu_fnc_createAction;
+ 
+        ["CAManBase", 1, ["ACE_SelfActions", "ACE_Equipment"], _action, true] call ace_interact_menu_fnc_addActionToClass;
+    } else {
+        [["Toggle primary weapon", {
+            [player] spawn second_primary_fnc_toggle;
+        }, nil, 1.5, false, true, "", '[player] call second_primary_fnc_toggleCondition']] call CBA_fnc_addPlayerAction;
+    };
+    player setVariable ["second_primary_info", ["rhs_weap_M590_5RD",["","","",""],5,["rhsusf_5Rnd_00Buck"]], true];
+};

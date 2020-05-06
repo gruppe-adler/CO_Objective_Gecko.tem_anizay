@@ -11,18 +11,6 @@ if (isServer) then {
 
 if(!hasInterface) exitWith {};
 
-if(!isNil "ace_interact_menu_fnc_createAction") then {
-    private _action = ["toggle_primary","Toggle primary weapon","",{
-        [ace_player] spawn second_primary_fnc_toggle;
-    },{[ace_player] call second_primary_fnc_toggleCondition},{},[], [0,0,0], 100] call ace_interact_menu_fnc_createAction;
-
-    ["CAManBase", 1, ["ACE_SelfActions", "ACE_Equipment"], _action, true] call ace_interact_menu_fnc_addActionToClass;
-} else {
-    [["Toggle primary weapon", {
-        [player] spawn second_primary_fnc_toggle;
-    }, nil, 1.5, false, true, "", '[player] call second_primary_fnc_toggleCondition']] call CBA_fnc_addPlayerAction;
-};
-
 player addEventHandler["Respawn",{
     player setVariable ["second_primary_info", nil, true];
     if !(isNil "ace_movement_fnc_handleVirtualMass") then {
