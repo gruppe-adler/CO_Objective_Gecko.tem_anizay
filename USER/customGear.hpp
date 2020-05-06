@@ -10,6 +10,6 @@
 
 allowHelmet = 0;                                                                // Kopfbedeckungen
 allowGoggles = 1;                                                               // Gesichtsbekleidung
-allowSimpleScopes = 0;                                                          // nichtvergrößernde Visiere
+allowSimpleScopes = 1;                                                          // nichtvergrößernde Visiere
 allowMagnifyingScopes = 0;                                                      // Visiere bis x4 Vergrößerung
 allowMarksmanScopes = 0;                                                        // Visiere ab x4 Vergrößerung aufwärts (Scharfschützenvisiere)

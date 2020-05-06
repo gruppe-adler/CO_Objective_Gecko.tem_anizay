@@ -52,7 +52,7 @@ class UsDeltaForce {
         handgunWeaponUnderbarrelMagazine = "";
         headgear = "rhsusf_opscore_mar_ut_pelt";
         goggles = "";
-        binoculars = "ACE_Vector";
+        binoculars = "";
         map = "ItemMap";
         compass = "ItemCompass";
         watch = "ACE_Altimeter";
@@ -71,25 +71,21 @@ class UsDeltaForce {
             primaryWeaponPointer = "rhsusf_acc_anpeq15";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
-            binoculars = "ACE_Vector";
+            binoculars = "";
             addItemsToUniform[] = {
             	LIST_5("ACE_CableTie"),
                 LIST_1("ACE_MapTools"),
                 LIST_1("rhsusf_mag_17Rnd_9x19_JHP"),
 
-				LIST_4("ACE_packingBandage"),
-                LIST_4("ACE_elasticBandage"),
-                LIST_4("ACE_quikclot"),
-                LIST_4("ACE_tourniquet"),
-                LIST_2("ACE_morphine"),
-                LIST_2("ACE_epinephrine")
+                GRAD_FACTIONS_MEDICITEMS_INF_LIST
+
             };
             addItemsToVest[] = {
                 LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
                 LIST_2("rhs_mag_m67"),
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellBlue"),
-                LIST_2("SmokeShellGreen")
+                LIST_2("SmokeShellRed")
             };
         };
         //Medic
@@ -102,14 +98,14 @@ class UsDeltaForce {
             primaryWeaponPointer = "rhsusf_acc_anpeq15";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
-            binoculars = "ACE_Vector";
+            binoculars = "";
 
             addItemsToVest[] = {
                 LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
                 LIST_2("rhs_mag_m67"),
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellBlue"),
-                LIST_2("SmokeShellGreen")
+                LIST_2("SmokeShellRed")
             }; 
             class Rank {
                 class PRIVATE {
@@ -124,7 +120,7 @@ class UsDeltaForce {
                 class LIEUTENANT: SERGEANT {};
                 class CAPTAIN: SERGEANT {};
                 class MAJOR: SERGEANT {};
-                class COLONEL: SERGEANT {}; 
+                class COLONEL: SERGEANT {};
             };
         };
         //Grenadier
@@ -134,23 +130,23 @@ class UsDeltaForce {
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
             primaryWeaponOptics = "optic_Holosight";
+            primaryWeaponPointer = "rhsusf_acc_anpeq15side";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
-            binoculars = "ACE_Vector";
+            binoculars = "";
 
             addItemsToVest[] = {
                 LIST_8("hlc_30rnd_556x45_MDim_EMAG"),
                 LIST_2("rhs_mag_m67"),
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellBlue"),
-                LIST_2("SmokeShellGreen")
+                LIST_2("SmokeShellRed")
             };
             addItemsToBackpack[] = {
                 LIST_2("1Rnd_Smoke_Grenade_shell"),
                 LIST_2("1Rnd_SmokeRed_Grenade_shell"),
-                LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
                 LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
-                LIST_9("1Rnd_HE_Grenade_shell")
+                LIST_5("1Rnd_HE_Grenade_shell")
             };
         };
         //Breacher
@@ -163,7 +159,7 @@ class UsDeltaForce {
             primaryWeaponPointer = "rhsusf_acc_anpeq15";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrel = "rhsusf_acc_grip2_tan";
-            binoculars = "ACE_Vector";
+            binoculars = "";
 
             addItemsToVest[] = {
                 LIST_3("ACE_M84"),
@@ -195,6 +191,7 @@ class UsDeltaForce {
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
             primaryWeaponOptics = "optic_Holosight";
+            primaryWeaponPointer = "rhsusf_acc_anpeq15side";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
@@ -204,12 +201,11 @@ class UsDeltaForce {
                 LIST_2("rhs_mag_m67"),
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellBlue"),
-                LIST_2("SmokeShellGreen")
+                LIST_2("SmokeShellRed")
             };
             addItemsToBackpack[] = {
-                LIST_1("1Rnd_Smoke_Grenade_shell"),
+                LIST_2("1Rnd_Smoke_Grenade_shell"),
                 LIST_2("1Rnd_SmokeRed_Grenade_shell"),
-                LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
                 LIST_2("1Rnd_SmokeBlue_Grenade_shell")
             };
         };
@@ -220,6 +216,7 @@ class UsDeltaForce {
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
             primaryWeaponOptics = "optic_Holosight";
+            primaryWeaponPointer = "rhsusf_acc_anpeq15side";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
@@ -229,12 +226,11 @@ class UsDeltaForce {
                 LIST_2("rhs_mag_m67"),
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellBlue"),
-                LIST_2("SmokeShellGreen")
+                LIST_2("SmokeShellRed")
             };
             addItemsToBackpack[] = {
-                LIST_1("1Rnd_Smoke_Grenade_shell"),
+                LIST_2("1Rnd_Smoke_Grenade_shell"),
                 LIST_2("1Rnd_SmokeRed_Grenade_shell"),
-                LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
                 LIST_2("1Rnd_SmokeBlue_Grenade_shell")
             };
         };
@@ -259,7 +255,6 @@ class UsDeltaForce {
                 LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellRed"),
-                LIST_2("SmokeShellGreen"),
                 LIST_2("SmokeShellBlue")
             };
         };
@@ -284,7 +279,6 @@ class UsDeltaForce {
                 LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
                 LIST_2("SmokeShell"),
                 LIST_2("SmokeShellRed"),
-                LIST_2("SmokeShellGreen"),
                 LIST_2("SmokeShellBlue")
             };
         };
