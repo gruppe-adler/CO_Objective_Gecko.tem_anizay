@@ -130,7 +130,6 @@ class UsDeltaForce {
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
             primaryWeaponOptics = "optic_Holosight";
-            primaryWeaponPointer = "rhsusf_acc_anpeq15side";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
             binoculars = "";
@@ -191,7 +190,6 @@ class UsDeltaForce {
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
             primaryWeaponOptics = "optic_Holosight";
-            primaryWeaponPointer = "rhsusf_acc_anpeq15side";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
@@ -216,7 +214,6 @@ class UsDeltaForce {
             primaryWeapon = "rhs_weap_m4a1_blockII_M203_d";
             primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
             primaryWeaponOptics = "optic_Holosight";
-            primaryWeaponPointer = "rhsusf_acc_anpeq15side";
             primaryWeaponMuzzle = "hlc_muzzle_556NATO_KAC";
             primaryWeaponUnderbarrelMagazine = "1Rnd_Smoke_Grenade_shell";
             binoculars = "ACE_Vector";
