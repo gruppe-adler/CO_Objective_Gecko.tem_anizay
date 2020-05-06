@@ -18,3 +18,16 @@ class GRAD_USER {
         class intro {};
     };
 };
+class Second_primary{
+	tag="second_primary";
+	class functions{
+		file = "second_primary";
+		class init{postInit=1;};
+		class toggle{};
+		class drop{};
+		class toggleCondition{};
+		class fill{};
+		class renderPFH{};
+		class addMagazine{};
+	};
+};
