@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=514;
+	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=5410;
+		nextID=5418;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2104;
+		nextID=2149;
 	};
 	class Camera
 	{
-		pos[]={8401.3389,117.68977,6833.7607};
-		dir[]={0.0080813989,-0.76185614,-0.64782488};
-		up[]={0.0095042661,0.64774984,-0.76180381};
-		aside[]={-0.99999219,-7.5386197e-008,-0.012474429};
+		pos[]={3490.3447,199.0746,4534.1079};
+		dir[]={0.8089695,-0.55468524,-0.19487067};
+		up[]={0.53927988,0.83204657,-0.12990719};
+		aside[]={-0.23419923,-1.6586273e-007,-0.97223645};
 	};
 };
 binarizationWanted=0;
@@ -200,7 +200,8 @@ addons[]=
 	"CUP_Wheeled_SUV",
 	"CUP_Editor_Plants_Config",
 	"A3_nature_sm",
-	"CUP_CAStructures_E_HouseL"
+	"CUP_CAStructures_E_HouseL",
+	"A3_Rocks_F_Sharp"
 };
 class AddonsMetaData
 {
@@ -7467,7 +7468,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=890;
+		items=894;
 		class Item0
 		{
 			dataType="Layer";
@@ -52828,6 +52829,74 @@ class Mission
 			id=5409;
 			type="HeliHEmpty";
 			atlOffset=15.000008;
+		};
+		class Item890
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5268.5684,185.87514,2611.5718};
+				angles[]={0,1.5952877,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5410;
+			type="Tree_Ficus_1";
+			atlOffset=-3.0517578e-005;
+		};
+		class Item891
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5266.0664,184.1907,2611.553};
+				angles[]={0,4.8163843,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=5413;
+			type="Bush_Ficus_Bush_2";
+			atlOffset=0.2906189;
+		};
+		class Item892
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5267.605,183.26952,2610.0735};
+				angles[]={0.13216886,6.1754489,0.037095517};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=5416;
+			type="Land_SharpStone_01";
+			atlOffset=-0.31924438;
+		};
+		class Item893
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5275.8457,187.11662,2610.3242};
+				angles[]={0,3.3234646,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=5417;
+			type="Tree_Ficus_1";
+			atlOffset=-2.1085968;
 		};
 	};
 	class Connections
